@@ -210,11 +210,17 @@ See `correct_task3.py`
 If you were to test this function, what areas or scenarios would you focus on, and why?
 
 **Normal numbers** → average should be correct.
+
 **None values** → ignored.
+
 **Invalid values** (strings, objects, lists) → skipped safely.
+
 **Empty list** → returns 0.0.
+
 **All invalid or None values** → returns 0.0.
+
 **Mixed valid and invalid values** → only valid numbers are counted.
+
 **Input is not a list** → safely returns 0.0.
 
 ## 3) Explanation Review & Rewrite
